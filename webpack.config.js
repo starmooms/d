@@ -83,7 +83,7 @@ module.exports = (env, argv) => {
             }
         },
         resolve: {
-            extensions: ['.js', '.vue'],
+            extensions: ['.js', '.ts', '.vue'],
             alias: {
                 'Less': path.resolve(__dirname, 'src/less'),
                 'image': path.resolve(__dirname, 'src/image')
@@ -114,7 +114,7 @@ module.exports = (env, argv) => {
                     ]
                 },
                 {
-                    test: /\.(jpg|png|svg|gif)$/,
+                    test: /\.(jpg|png|svg|gif|ttf|woff)$/,
                     loader: 'url-loader',
                     options: {
                         limit: 1024,

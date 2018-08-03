@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import "es6-promise"
 import App from './app.vue'
+// import iView from 'iview'
+import 'iview/dist/styles/iview.css'
 
 new Vue({
     el: "#app",
@@ -11,16 +13,3 @@ new Vue({
 })
 
 
-
-//typescript 支持
-//ts-loader typescript 安装2个
-//tsconfig.json  配置
-
-//vue支持typescript 
-//vue-property-decorator  安装1个
-
-//声明vue
-// declare module "*.vue" {
-//     import Vue from 'vue'
-//     export default Vue
-// }

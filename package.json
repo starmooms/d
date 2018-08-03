@@ -39,7 +39,9 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "babel-plugin-import": "^1.8.0",
     "es6-promise": "^4.2.4",
+    "iview": "^3.0.0",
     "vue": "^2.5.16"
   }
 }
