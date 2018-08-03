@@ -1,4 +1,3 @@
-/// <reference path="./sfc.d.ts" />
 import Vue from 'vue'
 import "es6-promise"
 import App from './app.vue'
